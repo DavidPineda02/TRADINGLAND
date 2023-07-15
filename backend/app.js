@@ -9,3 +9,5 @@ const server = new Server();
 conectarDB();
 
 server.listen();
+
+console.log(`http://localhost:${process.env.PORT}/api/acciones/all`);
